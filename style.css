@@ -1,19 +1,31 @@
-
+/**     Navigation Bar       **/
+.nav {
+    position: fixed;
+    width: 97.5%;
+    height: 40px;
+    background-color: #668284;
+    border-radius: 5px;
+}
 .nav a {
-    color: #5a5a5a;
-    font-size: 18px;
+    color: white;
+    font-size: 12px;
     font-weight: bold;
-    padding: 14px 10px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    padding: 0px 10px 10px 10px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .nav li {
     display: inline;
 }
 .pull-left {
     float:left;
-    padding: 25px 0px 0px 25px;
+    padding: 0px 0px 0px 25px;
+    margin-left: 5px;
 }
 .pull-right {
     float:right;
-    padding: 25px 25px 0px 0px;
+    padding: 0px 25px 0px 0px;
+    margin-right: 5px;
 }
