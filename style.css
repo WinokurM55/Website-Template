@@ -1,6 +1,19 @@
-h1 {
-    color:red;
+
+.nav a {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
 }
-p {
-    color: blue;
+.nav li {
+    display: inline;
+}
+.pull-left {
+    float:left;
+    padding: 25px 0px 0px 25px;
+}
+.pull-right {
+    float:right;
+    padding: 25px 25px 0px 0px;
 }
