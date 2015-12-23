@@ -1,12 +1,13 @@
 /**     Navigation Bar       **/
-.nav {
-    position: fixed;
+#nav {
+    z-index: 1;
+    position: relative;
     width: 97.5%;
     height: 40px;
-    background-color: #668284;
+    background-color: #70a9a9;
     border-radius: 5px;
 }
-.nav a {
+#nav a {
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -16,7 +17,7 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-.nav li {
+#nav li {
     display: inline;
 }
 .pull-left {
@@ -28,4 +29,23 @@
     float:right;
     padding: 0px 25px 0px 0px;
     margin-right: 5px;
+}
+/**     News Box        **/
+#news {
+    position: relative;
+    width: 97.5%;
+    height: 500px;
+    background-color: #5090aa;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/**     Media Box       **/
+#media {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #668284;
+    border-radius: 5px;
+    margin-top: 492px;
+    margin-bottom: 10px;
 }
